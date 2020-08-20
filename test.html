@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      /*Tulosta erikseen nimesi ja ikä
+      ja erikseen osoitetietosi puhelinnumeroineen
+      alert-boxiin, käytä kaikkiin muuttujia*/
+
+      var nimi = 'Pekka Haapala';
+      var ika = 42;
+      var osoite = 'Naavankierto 8 a1';
+      var pnum = '04300 TUUSULA';
+      var puhelinnumero = 0505281841;
+
+      var tunnit = 10;                  //päivän tunnit+minuutit paljonko minuutteja kulunut//
+      var minuutit = 58;
+      var summa = tunnit * 60 + minuutit;
+
+      var summaS = summa * 60;          //edellinen muutettuna sekunneiksi
+
+      var vuodet = 42;                  //vuodet muutettuna päiviksi
+      var päivä = vuodet * 365;
+
+      var minut = päivä * 24 * 60;      //vuodet muutettuna minuuteiksi
+
+      var sec = minut * 60;             //vuodet muutettuna sekunneiksi
+
+
+
+      alert (nimi + '\n' + ika + '\n' + osoite + '\n' + pnum + '\n' + puhelinnumero);
+                                        //samaan boxiin eri riveille nimi + '\n'+ komennolla
+
+      alert ('tänään on kulunut '+summa+' minuuttia');
+
+      alert ('tänään on kulunut '+summaS+' sekuntia');
+
+      alert ('olen '+päivä+' päivää vanha');
+
+      alert ('olen elänyt '+minut+' minuuttia');
+
+      alert ('Olen ollut täällä pallon päällä '+sec+' sekuntia');
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
